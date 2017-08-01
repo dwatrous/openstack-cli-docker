@@ -1,6 +1,6 @@
 FROM debian:jessie-slim
 
-MAINTAINER Daniel Watrous daniel.watrous@trinet.com
+MAINTAINER Daniel Watrous
 
 RUN apt-get update && apt-get install -y curl vim python python-dev python-setuptools ca-certificates build-essential && easy_install pip && pip install python-openstackclient && pip install python-heatclient
 
